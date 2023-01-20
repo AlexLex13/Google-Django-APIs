@@ -5,6 +5,6 @@ app_name = "main"
 
 urlpatterns = [
     path('route', views.route, name="route"),
-    path('map', views.map, name="map"),
+    path('map', views.display_map, name="map"),
 ]
 

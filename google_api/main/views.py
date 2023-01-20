@@ -14,7 +14,7 @@ def route(request):
     return render(request, 'main/route.html', context)
 
 
-def map(request):
+def display_map(request):
     """
     Basic view for displaying a map
     """
