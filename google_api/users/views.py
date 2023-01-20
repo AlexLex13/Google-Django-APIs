@@ -7,7 +7,7 @@ from django.views.generic.edit import FormView
 from django.views.generic.base import TemplateView
 from django.utils.decorators import method_decorator
 
-from ..google_api.mixins import (
+from .mixins import (
     AjaxFormMixin,
     reCAPTCHAValidation,
     FormErrors,

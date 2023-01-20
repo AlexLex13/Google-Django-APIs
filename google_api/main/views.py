@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect, reverse
 from django.conf import settings
-
-from ..google_api.mixins import Directions
+from .mixins import Directions
 
 
 def route(request):

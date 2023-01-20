@@ -7,4 +7,3 @@ urlpatterns = [
     path('route', views.route, name="route"),
     path('map', views.display_map, name="map"),
 ]
-
